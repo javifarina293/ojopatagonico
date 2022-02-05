@@ -1,0 +1,385 @@
+#grilla {
+    display: grid;
+    grid-template-areas:
+      "nav header header"
+      "nav productos publicidad"
+      "nav productos publicidad"
+      "footer footer footer";
+    grid-template-rows: 0.30fr 1.70fr 1.75fr 0.25fr; 
+    grid-template-columns: 14% auto auto;
+    grid-column-gap: 10px;
+   
+
+ }
+
+#grilla{
+    background-image: url(./Fotos/fondo3.jpg);
+        background-position: center center;
+         background-attachment: fixed;
+          background-size: cover;
+           background-size: 100% 100%;
+            height: 100%; width: 100%;
+             background-repeat: no-repeat;
+   
+    
+} 
+
+#grilla3
+{
+    display: grid;
+    grid-template-areas:
+      "nav header"
+      "nav productos3 "
+      "footer footer";
+    grid-template-rows: 0.20fr 2.45fr auto; 
+    grid-template-columns: 14% auto;
+    grid-column-gap: 10px;
+   
+
+ }
+
+
+ #grilla3{
+    background-image: url(./Fotos/fondogalería.jpg);
+        background-position: center center;
+         background-attachment: fixed;
+          background-size: cover;
+           background-size: 100% 100%;
+            height: 100%; width: 100%;
+             background-repeat: no-repeat;
+   
+    
+} 
+
+
+h2 {
+    animation-duration: 2s;
+   animation-name: aparecer;
+   animation-iteration-count: infinite;
+}
+
+@keyframes aparecer {
+    0% {opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+#grilla4
+{
+    display: grid;
+    grid-template-areas:
+      "nav header"
+      "nav productos4 "
+      "footer footer";
+    grid-template-rows: 0.20fr 2.45fr auto; 
+    grid-template-columns: 14% auto;
+    grid-column-gap: 10px;
+   
+
+ }
+
+
+ #grilla4{
+    background-image: url(./Fotos/fondo3.jpg);
+        background-position: center center;
+         background-attachment: fixed;
+          background-size: cover;
+           background-size: 100% 100%;
+            height: 100%; width: 100%;
+             background-repeat: no-repeat;
+   
+    
+} 
+
+.bordercontacto {
+    height: 50%;
+}
+
+
+ul li{ list-style-type: none;}
+
+#grilla5 {
+    display: grid;
+    grid-template-areas:
+      "nav header header"
+      "nav productos5 publicidad"
+      "nav jofre publicidad"
+      "footer footer footer";
+    grid-template-rows: 0.30fr 1.70fr 1.75fr 0.25fr; 
+    grid-template-columns: 14% auto auto;
+    grid-column-gap: 10px;
+   
+
+ }
+
+ #grilla5{
+    background-image: url(./Fotos/fondocontactos.jpg);
+        background-position: center center;
+         background-attachment: fixed;
+          background-size: cover;
+           background-size: 100% 100%;
+            height: 100%; width: 100%;
+             background-repeat: no-repeat;
+   
+    
+} 
+ 
+ #Jofre {
+     grid-area: jofre;
+     height: 30%;
+     font-size: 3vh;
+     margin-left: 5%;
+     padding: 2%;
+ }
+
+ #productos5 {
+     grid-area: productos5;
+     height: 40%;
+     font-size: 3vh;
+     margin-left: 5%;
+     padding: 2%;
+ }
+
+ .formulario {
+     padding: 2%;
+     height: 60%;
+     width: 50%;
+     font-size: 3vh;
+     margin-left: 5%;
+ }
+
+table{ width: 60%;
+    height: 60%;
+justify-content: center;
+justify-self: center;
+    text-align: left;
+    font-size: 3vh;
+    color: #A8957D;
+    border-collapse: collapse;
+align-items: center;}
+    th, td{
+        border: solid 1px white;
+    }
+
+table:hover { background-color: aliceblue;
+
+}
+    
+.tarifa {
+    display: flex;
+    margin-top: 5%;
+    height: 70%;
+    justify-content: center;
+    justify-self: center;
+    align-items: center;
+}
+
+.item2 {
+    display: grid;
+    margin-top: 5%;
+   
+    padding: 5%;
+    margin-left: 14%;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "foto1 foto2 foto3"
+    "foto4 foto5 foto6"
+    "foto7 foto8 foto9"
+
+}
+
+.bordergale {
+    background-color: grey;
+    color: aliceblue;
+}
+
+.clarear:hover {background-color: #A8957D;}
+
+
+ header {
+    grid-area: header;
+    text-align: center;
+    justify-content: stretch;
+    align-items: stretch;
+    font-size: 4vh;
+    padding: 0%;
+    color: burlywood;
+ }
+ footer {
+    grid-area: footer;
+    color: beige;
+    background-color: black;
+    text-align: center;
+    font-size: 3vh;
+ }
+ section#productos {
+    grid-area: productos; 
+    font-size: 4vh;    
+    text-align: center;
+    
+    align-items: center;
+    
+ }
+
+
+ section#productos2 {
+    grid-area: productos; 
+    font-size: 3vh;    
+    text-align: center;
+    padding: 2%;
+    
+   
+    
+ }
+
+
+ nav {
+    grid-area: nav;
+    background-color: black;
+    color: aliceblue;
+    width: 100%;
+ }
+
+ nav ul {
+     list-style: none;
+ }
+ nav ul li {display: block;}
+
+ nav ul li{font-size: 3vh; padding: 10%; margin-top: 25%; margin-right: 20%;}
+
+ nav ul li a:hover { background-color: #A8957D;}
+    
+    
+ 
+ aside {
+    grid-area: publicidad;
+    height: 100%;
+    padding: 0%;
+    margin-right: 10%;
+    width: auto;
+ }
+
+ .borderline {
+     grid-area: publicidad;
+     font-size: 3vh;
+     padding: 2%;
+ }
+ 
+@media only screen and (max-width: 425px) {
+    nav{
+        background-color: white;
+        color: black;
+        
+    }
+
+    #grilla {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 5fr;
+        grid-template-areas: 
+        "header"
+        "nav"
+        "productos"
+        "publicidad"
+        "footer"
+        ;
+    }
+}
+
+
+
+@media only screen and (min-width: 781px) {
+    nav{
+        background-color: black;
+        color: blue;
+        
+    }
+
+    #grilla {
+        display: grid;
+        grid-template-columns: 14% auto;
+        grid-template-rows: 10% 2fr 2fr 0.5fr;
+        
+        grid-template-areas: 
+        "header"
+        "nav productos"
+        "publicidad"
+        "footer"
+        ;
+    }
+}
+
+
+@media only screen and (max-width: 425px) {
+    nav{
+        background-color: white;
+        color: black;
+        
+    }
+
+    #grilla3 {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 5fr;
+        grid-template-areas: 
+        "header"
+        "nav"
+        "productos"
+        "publicidad"
+        "footer"
+        ;
+    }
+}
+
+
+@media only screen and (max-width: 425px) {
+    nav{
+        background-color: white;
+        color: black;
+        
+    }
+
+    #grilla4 {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 5fr;
+        grid-template-areas: 
+        "header"
+        "nav"
+        "productos"
+        "publicidad"
+        "footer"
+        ;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    nav{
+        background-color: white;
+        color: black;
+        
+    }
+
+    #grilla5 {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 6fr;
+        grid-template-areas: 
+        "header"
+        "nav"
+        "productos5"
+        "jofre"
+        "publicidad"
+        "footer"
+        ;
+    }
+}
+
+
+
+
+
+
