@@ -81,6 +81,74 @@ h2 {
  }
 
 
+ .foto1 {
+     height: 100%;
+     transition: height 2s;
+ }
+
+ .foto1:hover {height: 150%; width: 150%;}
+
+
+ .foto2 {
+    height: 100%;
+    transition: height 2s;
+}
+
+.foto2:hover {height: 150%; width: 150%;}
+
+
+.foto3 {
+    height: 100%;
+    transition: height 2s;
+}
+
+.foto3:hover {height: 150%; width: 150%;}
+
+
+.foto4 {
+    height: 100%;
+    transition: height 2s;
+}
+
+.foto4:hover {height: 150%; width: 150%;}
+
+
+.foto5 {
+    height: 100%;
+    transition: height 2s;
+}
+
+.foto5:hover {height: 150%; width: 150%;}
+
+
+.foto6 {
+    height: 100%;
+    transition: height 2s;
+}
+
+.foto6:hover {height: 150%; width: 150%;}
+
+.foto7 {
+    height: 100%;
+    transition: height 2s;
+}
+
+.foto7:hover {height: 150%; width: 150%;}
+
+.foto8 {
+    height: 100%;
+    transition: height 2s;
+}
+
+.foto8:hover {height: 150%; width: 150%;}
+
+.foto9 {
+    height: 100%;
+    transition: height 2s;
+}
+
+.foto9:hover {height: 150%; width: 150%;}
+
  #grilla4{
     background-image: url(./Fotos/fondo3.jpg);
         background-position: center center;
@@ -196,6 +264,8 @@ table:hover { background-color: aliceblue;
     color: aliceblue;
 }
 
+
+
 .clarear:hover {background-color: #A8957D;}
 
 
@@ -238,7 +308,7 @@ table:hover { background-color: aliceblue;
 
  nav {
     grid-area: nav;
-    background-color: black;
+    background-image: linear-gradient(to bottom,black, grey);
     color: aliceblue;
     width: 100%;
  }
